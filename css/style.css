@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -22,12 +32,117 @@
     border: 1px dashed lightblue;
 }
 
-.header-title {
+.header-background {
     background-color: #B4D0E7;
 }
 
-.container-big {
+.container {
     min-width: 300px;
-    max-width: 1200px;
-    text-align: center;
+    margin: 0 auto;
+}
+
+.container-big {
+    max-width: 960px;
+}
+
+.container-small {
+    max-width: 780px;
+    padding-top: 5em;
+}
+
+.header-title {
+    border: 1px dashed blue;
+    position: relative;
+    top: 50px;
+}
+
+.title {
+    padding-bottom: 1em;
+    font-size: 2rem;
+}
+
+.subtitle {
+    display: flex;
+    border: 1px dashed red;
+}
+
+.title-description {
+    border: 1px dashed red;
+    max-width: 40%;
+}
+
+.title-image {
+    border: 1px dashed green;
+    flex-grow: 1;
+    height: 300px;
+}
+
+.section-title {
+    font-size: 1.6rem;
+    padding-bottom: 1em;
+}
+
+.checkbox {
+    margin-bottom: 2em;
+}
+
+.radio-check {
+    margin-left: 30px;
+}
+
+.row {
+    display: flex;
+    gap: 2em;
+    height: 200px;
+    margin-bottom: 2em;
+}
+
+.col {
+    width: calc(100% / 3);
+    border: 1px solid grey;
+}
+
+.col-large {
+    width: 100%;
+}
+
+.image, .company, .customers {
+    height: 200px;
+    border: 1px solid yellow;
+    flex-grow: 1;
+}
+
+.side-text, .trial {
+    height: 200px;
+    border: 1px dashed orange;
+    min-width: 40%;
+}
+
+.bg-blue {
+    background-color: #B4D0E7;
+}
+
+.company-title {
+    color: #61082B;
+    padding: 2em 0;
+}
+
+.faq, .company {
+    display: flex;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 2em;
+}
+
+.footer-top {
+    display: flex;
+    gap: 1em;
+    height: 300px;
+    padding: 2em 0;
+}
+
+.footer-col {
+    height: 50%;
+    border: 1px dashed white;
+    width: calc(100% / 5);
 }
