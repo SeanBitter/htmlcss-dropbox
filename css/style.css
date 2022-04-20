@@ -20,6 +20,9 @@ footer {
     border: 1px dashed blue;
     padding: 0.5em;
     width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
 }
 
 .nav-left, .nav-right {
@@ -57,6 +60,7 @@ footer {
 }
 
 .title {
+    margin-top: 2em;
     padding-bottom: 1em;
     font-size: 2rem;
 }
