@@ -3,3 +3,31 @@
     margin: 0;
     padding: 0;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed blue;
+    padding: 0.5em;
+    width: 100%;
+}
+
+.nav-left, .nav-right {
+    border: 1px dashed green;
+    padding: 1em;
+}
+
+.nav-left a, .nav-right a {
+    padding: 0.5em;
+    border: 1px dashed lightblue;
+}
+
+.header-title {
+    background-color: #B4D0E7;
+}
+
+.container-big {
+    min-width: 300px;
+    max-width: 1200px;
+    text-align: center;
+}
