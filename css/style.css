@@ -70,6 +70,10 @@ footer {
     padding-top: 5em;
 }
 
+.section {
+    padding: 2rem 0;
+}
+
 .row {
     display: flex;
 }
@@ -147,9 +151,9 @@ footer {
     border: 1px solid grey;
 }
 
-.card {
+/* .card {
     padding: 1rem;
-}
+} */
 
 .col-large {
     display: flex;
@@ -199,26 +203,9 @@ li {
     height: 200px;
 }
 
-.image, .company, .customers {
-    height: 200px;
-    flex-grow: 1;
-}
-
-.side-text, .trial {
-    height: 200px;
-    min-width: 40%;
-}
-
 .company-title {
     color: #61082B;
     padding: 1em 0;
-}
-
-.company {
-    display: flex;
-    height: 200px;
-    border: 1px solid black;
-    margin-bottom: 2em;
 }
 
 .btn-trial {
@@ -240,15 +227,38 @@ li {
     padding: 3em 0;
 }
 
-.footer-top {
-    display: flex;
-    gap: 1em;
-    height: 300px;
-    padding: 2em 0;
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
 }
 
-.footer-col {
-    height: 50%;
-    border: 1px dashed white;
-    width: calc(100% / 5);
+.col-five {
+    flex-basis: calc(20% - 2em);
+    flex-grow: 1;
+    padding-bottom: 5rem;
+}
+
+.footer-top h4 {
+    padding: 1.5rem 0;
+}
+
+.footer-top li {
+    padding: 0.5em 0;
+}
+
+.line-footer {
+    width: 100px;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+.footer-bottom {
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.fa-earth-americas {
+    padding-right: 0.3rem;
 }
