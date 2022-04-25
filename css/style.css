@@ -267,6 +267,7 @@ li .fa-solid {
     aspect-ratio: 1/1;
     padding: 2rem;
     overflow: auto;
+    height: 100%;
 }
 
 .line-large {
@@ -343,6 +344,10 @@ ul a {
     flex-basis: calc(20% - 2em);
     flex-grow: 1;
     padding-bottom: 5rem;
+}
+
+.col-five .card {
+    padding: 1rem 0;
 }
 
 .footer-top h4 {
