@@ -1,0 +1,50 @@
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.button:hover {
+    background-color: #5a95c9;
+    color: black;
+}
+
+.btn-white:hover {
+    background-color: rgb(168, 170, 171);
+    box-shadow: 0 0 10px rgb(114, 127, 144);
+}
+
+.p-hover {
+    padding-bottom: 1rem;
+    display: none;
+}
+
+.float:hover .p-hover {
+    display: block;
+}
+
+.card-two:hover {
+    border: 10px solid #dd7221;
+}
+
+.card-three:hover {
+    border: 10px solid #71bee2;
+}
+
+.card-four:hover {
+    border: 10px solid #ec6051;
+}
+
+.card-five:hover {
+    border: 10px solid #f48f8f;
+}
+
+.card-six:hover {
+    border: 10px solid #eff2f5;
+}
+
+.card-seven:hover {
+    border: 10px solid #214bbe;
+}
+
+.card-eight:hover {
+    border: 10px solid #fafa1c;
+}
