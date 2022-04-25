@@ -1,0 +1,84 @@
+.img-background {
+    background-image: url("../img/bg.jpg");
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-customers {
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.loghi {
+    min-height: 50px;
+    padding: 2rem 3rem;
+    object-fit: contain;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.bg-lightgrey {
+    background-color: #F5F5F5;
+}
+
+.lonely-planet {
+    padding: 5rem 0 2rem;
+    font-size: 1.3rem;
+}
+
+.lonely-planet a {
+    margin: 2rem 2rem 0.5rem 0;
+    color: grey;
+    text-decoration: none;
+}
+
+.lp:hover, .sundance:hover, .brandt:hover {
+    color: black;
+}
+
+.img-tram {
+    padding: 2rem 0;
+    object-fit: contain;
+}
+
+.bg-banner {
+    background-color: #0D2481;
+}
+
+.padding-more {
+    padding: 4rem 0;
+}
+
+.wyd {
+    color: #FFD830;
+    font-size: 2.5rem;
+}
+
+.buy-now {
+    color: white;
+}
+
+.btn-customers {
+    font-size: 1.2rem;
+}
+
+.buy-now a {
+    color: white;
+}
+
+.change {
+    font-size: 1.2rem;
+    padding: 2rem 0 6rem;
+}
+
+.change-link {
+    color: grey;
+    padding-top: 1rem;
+}
